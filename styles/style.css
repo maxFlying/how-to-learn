@@ -83,7 +83,6 @@
 /* description */
 
 .two-columns {
-  border: 1px solid red;
   display: flex;
   width: 80%;
   min-width: 784px;
@@ -94,7 +93,6 @@
 
 .two-columns__brief {
   width: 175px;
-  border: 1px solid red;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -103,13 +101,11 @@
 }
 
 .two-columns__main-text {
-  border: 1px solid red;
   width: 80%;
   min-width: 784px;
 }
 
 .two_columns__paragraph {
-  border: 1px solid red;
   margin: 0 0 30px 0;
   line-height: 34px;
   font-size: 24px;
@@ -127,7 +123,6 @@
 /* digits */
 
 .digits {
-  border: 1px solid blueviolet;
   background-color: #ffffff;
   margin: 100px auto 0;
   display: flex;
@@ -135,21 +130,18 @@
 }
 
 .section-title {
-  border: 1px solid red;
   width: 60%;
   margin: 100px auto 20px auto;
   text-align: center;
 }
 
 .section-subtitle {
-  border: 1px solid red;
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
 .table {
-  border: 1px solid red;
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -159,7 +151,6 @@
 }
 
 .table__cell {
-  border: 1px solid red;
   width: 250px;
   margin-top: 60px;
   display: flex;
@@ -167,12 +158,10 @@
 }
 
 .table__heading {
-  border: 1px solid rgb(21, 133, 68);
   margin: 0;
 }
 
 .table__text {
-  border: 1px solid rgb(21, 133, 68);
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -204,7 +193,6 @@
 /* feyman */
 
 .feynman {
-  border: 1px solid red;
   height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
@@ -218,7 +206,6 @@
 }
 
 .feynman__title {
-  border: 1px solid red;
   margin: 100px auto 0;
   width: 648px;
   z-index: 1;
@@ -229,7 +216,6 @@
 }
 
 .feynman__subtitle {
-  border: 1px solid red;
   margin: 70px auto 0;
   z-index: 1;
   text-align: center;
@@ -239,7 +225,6 @@
 }
 
 .feynman__link {
-  border: 1px solid red;
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -255,7 +240,6 @@
 /* kaufman */
 
 .kaufman {
-  border: 1px solid rgb(255, 0, 149);
   background-color: black;
   overflow: hidden;
   background-image: url(../images/kaufman-triangle.svg);
@@ -306,7 +290,6 @@
 /* footer */
 
 .footer {
-  border: 1px solid rgb(0, 217, 255);
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -315,7 +298,6 @@
 }
 
 .footer__columns {
-  border: 1px solid rgb(190, 10, 10);
   width: 90%;
   min-height: 350px;
   margin: 0 auto;
@@ -325,22 +307,15 @@
   box-sizing: border-box;
 }
 
-.footer__column {
-  border: 1px solid rgb(0, 0, 0);
-}
-
 .footer__column_content_copyright {
-  border: 1px solid rgb(186, 233, 18);
   flex-basis: 711px;
 }
 
 .footer__column_content_info {
-  border: 1px solid rgb(4, 8, 231);
   justify-content: space-between;
 }
 
 .footer__column-heading {
-  border: 1px solid rgb(211, 15, 136);
   margin: 0;
   line-height: 30px;
   font-size: 30px;
@@ -349,7 +324,6 @@
 }
 
 .footer__column-links {
-  border: 1px solid rgb(220, 235, 8);
   list-style: none;
   margin: 20px 0 16px;
   padding: 0;
@@ -357,16 +331,11 @@
 }
 
 .footer__column-link {
-  border: 1px solid rgb(3, 177, 247);
   text-decoration-line: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   color: white;
-}
-
-.footer__column_content_social {
-  border: 1px solid rgb(240, 236, 14);
 }
 
 .footer__social-icon {
@@ -376,7 +345,6 @@
 }
 
 .logo_place_footer {
-  border: 1px solid rgb(186, 233, 18);
   background-image: url(../images/logo_place_footer.svg);
   background-repeat: no-repeat;
   width: 183px;                         
