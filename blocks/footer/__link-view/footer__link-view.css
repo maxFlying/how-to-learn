@@ -1,7 +1,12 @@
 .footer__link-view {
-    text-decoration-line: none;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    color: white;
-  }
+  text-decoration-line: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__link-view:hover {
+  opacity: 0.5;
+  transition: ease 0.5s;
+}
